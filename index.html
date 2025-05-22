@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"/>
+
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="parent">
+        <div>
+            <header class="header"> Contact Form</header>
+        </div>
+        <div class="name">
+            <label >Your Name</label>
+            <div class="name-fields">
+                
+                <input type="text" class="Firstname " placeholder="Firstname" >
+                <input type="text" class="secondname " placeholder="Lastname" >
+            </div>
+
+
+        </div>
+        <div class="email">
+            <label >Your Email</label>
+            <div class="Email-Field">
+                <input type="text" class="Email" placeholder="Enter Your Email">
+
+            </div>
+        </div>
+        <div class="phone">
+            <label >Phone*</label>
+            <div class="phone-fields">
+                <input type="text" class="number-one" placeholder="###" required>
+                  <input type="text" class="number-two" placeholder="###" required>
+                    <input type="text" class="number-three" placeholder="###" required>
+                
+            </div>
+         
+
+        </div>
+        <div class="Message-subject">
+            <label for="subject">Message Subject *</label>
+<select id="subject" name="subject" required>
+  <option value="">-- Select a Subject --</option>
+  <option value="support">Support</option>
+  <option value="sales">Sales</option>
+  <option value="feedback">Feedback</option>
+  <option value="other">Other</option>
+</select>
+
+        </div>
+        <div class="massege"> 
+            <label>Massege*</label>
+            <div class="Massege-Field">
+                <input type="text" class="Massege-Area" required>
+            </div>
+            
+        </div>
+   <div class="verfication-box">
+    <label class="labell">Verifiction*</label>
+    <div class="recaptcha-background">
+        <input type="checkbox" id="robot-check" class="checksize" required>
+        <p>im not a robot</p>
+        <img src="./recaptcha.png" alt="Ali " class="recaptcha-img"/>
+    </div>
+   </div>
+   <hr class="styleline">
+   <div class="submit">
+    <button class="submit-button">Submit Form </button>
+
+
+   </div>
+
+</div>
+
+    
+    
+  
+
+    
+    
+    
+
+   
+    
+</body>
+</html>

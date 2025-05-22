@@ -1,0 +1,202 @@
+
+
+
+html{
+    background-image: url(./background.png);
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+ 
+    
+
+}
+
+.parent{
+      font-weight: bold;
+  display: block;
+  
+  color: #fff;
+    
+   margin-top: 70px;
+   margin-left: 270px;
+    
+}
+.header{
+     
+    font-size: 50px;
+   
+}
+.name{
+   
+     display: flex;
+    gap: 70px;
+    margin-top: 75px;
+
+}
+
+.name-fields{
+    display: flex;
+    gap: 40px;
+   
+}
+ input {
+  padding: 8px;
+  font-size: 14px;
+  width: 250px; 
+ }
+ .email{
+     
+     display: flex;
+    gap: 70px;
+    margin-top: 25px;
+
+ }
+
+.Email-Fields{
+    display: flex;
+    gap: 40px;
+   
+}
+.Email{
+    
+  padding: 8px;
+  font-size: 14px;
+  width: 560px; 
+ }
+  .phone{
+     
+     display: flex;
+    gap: 100px;
+    margin-top: 25px;
+
+ }
+
+.phone-fields{
+    display: flex;
+    gap: 40px;
+   
+}
+.number-one{
+
+     padding: 8px;
+  font-size: 14px;
+  width: 120px;
+}
+.number-two{
+     padding: 8px;
+  font-size: 14px;
+  width: 120px;
+}
+.number-three{
+     padding: 8px;
+  font-size: 14px;
+  width: 120px;
+}
+.Message-subject{
+     
+     display: flex;
+    gap: 27px;
+    margin-top: 25px;
+
+ }
+ #subject{
+   padding: 8px;
+  font-size: 14px;
+  width: 350px; 
+ }
+ .massege{
+     
+     display: flex;
+    gap: 85px;
+    margin-top: 25px;
+
+ }
+
+.Massege-Fields{
+    display: flex;
+    gap: 40px;
+   
+}
+.Massege-Area{
+    padding: 8px;
+  font-size: 14px;
+  width: 570px; 
+  height: 150px;
+}
+
+
+
+.verfication-box {
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  display: flex;
+gap: 66px;
+}
+
+.verfication-box label {
+  font-weight: bold;
+  display: block;
+  
+  color: #fff;
+}
+.checksize{
+    width: 30px;
+    height: 30px;
+}
+
+
+.recaptcha-background {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
+  width: 25%;
+}
+.labell{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+.recaptcha-img {
+  height: 40px;
+  margin-left: auto;
+}
+p{
+    color: black;
+}
+.styleline {
+    margin-top: 30px;
+    margin-right: 1000px;
+  border: none;
+  height: 1px;
+  background-color: #ccc; 
+  margin-bottom: 20px;     
+  width: 50%;           
+}
+.submit-button{
+    width: 200px;
+    height: 50px;
+background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+ cursor: pointer;
+  
+}
+
+    
+
